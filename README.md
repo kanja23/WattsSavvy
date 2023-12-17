@@ -59,9 +59,6 @@ While minimal risks are anticipated, ongoing user engagement and education may r
 
 ## Infrastructure and Deployment
 
-**Branching and Merging:**
-We follow the GitHub flow for branching and merging in our team's repository, ensuring a streamlined development process.
-
 **Deployment Strategy:**
 The application is deployed using [Netlify](https://www.netlify.com/) for seamless and efficient hosting.
 
