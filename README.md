@@ -8,7 +8,7 @@ WattsSavvy is a web application dedicated to promoting energy efficiency and sus
 
 <https://wattssavvy.netlify.app>
 
-> Explore our web application to discover practical energy-saving tips and tools. The technology used for the front end is ReactJs.
+> Explore my web application to discover practical energy-saving tips and tools. The technology used for the front end is ReactJs.
 
 ---
 
