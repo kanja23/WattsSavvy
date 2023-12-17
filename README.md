@@ -1,5 +1,8 @@
 # WattsSavvy
 
+![image](https://github.com/kanja23/WattsSavvy/assets/95163330/72579bca-60d7-403b-9b4b-6ffd1880550a)
+
+
 WattsSavvy is a web application dedicated to promoting energy efficiency and sustainability, empowering users to make informed choices for a greener future.
 
 ---
