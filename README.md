@@ -1,4 +1,3 @@
-```markdown
 # WattsSavvy
 
 WattsSavvy is a web application dedicated to promoting energy efficiency and sustainability, empowering users to make informed choices for a greener future.
@@ -97,4 +96,3 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ---
-```
