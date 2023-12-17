@@ -66,7 +66,7 @@ The application is deployed using [Netlify](https://www.netlify.com/) for seamle
 Data related to energy-saving tips and guides are curated and updated regularly to provide relevant and current information.
 
 **Testing:**
-I employ a comprehensive testing strategy using automated tools and manual testing to ensure the reliability of our features.
+I employ a comprehensive testing strategy using automated tools and manual testing to ensure the reliability of features.
 
 ---
 
