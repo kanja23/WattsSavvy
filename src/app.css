@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+
+.appContainer {
+  width: 100%;
+  position: relative;
+  background-color: forestgreen;
+ }
