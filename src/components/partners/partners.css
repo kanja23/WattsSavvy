@@ -1,0 +1,44 @@
+.partners {
+  margin-top: 7rem;
+}
+.partners-title {
+  display: grid;
+  place-items: center;
+  margin-bottom: 0.1rem;
+  margin-right: 50px;
+}
+.partners-slider {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 40rem;
+}
+.partners-slider-img {
+  width: 16rem;
+  height: 7rem;
+  margin: 0.11rem;
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #2ba84a !important;
+}
+
+.slick-prev {
+  left: 0 !important;
+  z-index: 1;
+  margin-left: 20px;
+}
+
+.slick-next {
+  right: 0 !important;
+  margin-right: 20px;
+}
+.logo {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
