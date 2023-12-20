@@ -1,0 +1,55 @@
+.homeEfficiencyCardContainer {
+  margin-top: 30px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.homeEfficiencyCardWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.homeEffImg {
+  width: 103px;
+  height: 103px;
+  object-fit: contain;
+}
+.homeEfficiencyCardP {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.homeEfficiencyCardContent {
+  background: #ededed;
+  box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  width: 200px;
+  height: 170px;
+  padding: 50px 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .homeefficiencyCardContainer {
+    margin: 0 auto;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .homeEfficiencyCardContent {
+    margin: 0;
+    /* padding: 0; */
+  }
+}
