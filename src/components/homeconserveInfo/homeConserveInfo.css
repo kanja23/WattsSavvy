@@ -1,0 +1,124 @@
+.homeConserveInfContainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.homeConserveInfL {
+  flex: 1.1;
+  background: #fdf4db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 100px 30px;
+}
+.conserve-cards {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.conserve-cards-img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.conserveP {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #000000;
+}
+.conserve-circle {
+  background: #2ba84a;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.homeConserveInfR {
+  flex: 1;
+  background: #2ba84a;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 80px;
+}
+.homeConserveInfRH {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 116%;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.homeConserveInfRP {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 116%;
+  text-align: center;
+  color: #ffffff;
+  padding: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+  .homeConserveInfContainer {
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+  }
+  .homeConserveInfL {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex: auto;
+  }
+  .conserve-cards {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .homeConserveInfR {
+    padding: 0;
+    flex: auto;
+  }
+  .homeConserveInfRH {
+    font-size: 30px;
+    padding: 0;
+    margin: 30px;
+  }
+  .homeConserveInfRP {
+    padding: 0;
+    font-size: 20px;
+    margin: 30px;
+  }
+}
