@@ -1,0 +1,111 @@
+.navbarContainer {
+  margin: 0 auto;
+  display: flex;
+  padding-top: 30px;
+  width: 100%;
+}
+.navbarLogo {
+  width: 266px;
+  cursor: pointer;
+}
+.navbarLeft {
+  flex: 1;
+  padding-left: 90px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.navbarRight {
+  width: 100%;
+  flex: 3;
+  padding-top: 15px;
+  padding-left: 300px;
+}
+.navbarUl {
+  display: flex;
+  list-style: none;
+}
+.navbarLi1 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 26px;
+  cursor: pointer;
+  padding-left: 10px;
+  color: #ffffff;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+.navbarLi2 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 26px;
+  cursor: pointer;
+  padding-left: 13px;
+  color: #02230a;
+  margin: 0 auto;
+}
+
+.icon {
+  font-size: 30px;
+  color: white;
+  display: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbarContainer {
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 999;
+    background-color: white;
+  }
+  .navbarLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    padding-left: 30px;
+    flex: 0;
+  }
+  .icon {
+    display: flex;
+    color: #02230a;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .navbarRight {
+    position: absolute;
+    /* position: fixed; */
+    display: block;
+    width: 100%;
+    /* height: 100vh; */
+    top: 90px;
+    left: -100%;
+    transition: all 0.6s linear;
+    background-color: white;
+    padding-left: 50px;
+  }
+
+  .active {
+    left: 0;
+  }
+  .navbarUl {
+    flex-direction: column;
+    margin-right: 60px;
+    text-align: center;
+  }
+  .navbarLi1,
+  .navbarLi2 {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+  }
+}
