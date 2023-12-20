@@ -1,0 +1,45 @@
+.aboutServicesContainer {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.aboutServicesH {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 140%;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin-bottom: 50px;
+}
+.aboutServicesWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutServiceCardL {
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.aboutServiceCardR {
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 90px;
+}
+
+@media only screen and (max-width: 480px) {
+  .aboutServicesContainer {
+    margin: 0 auto;
+    overflow: hidden;
+    height: 100%;
+    margin-bottom: 30px;
+    display: flex;
+  }
+}
