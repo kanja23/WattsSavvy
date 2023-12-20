@@ -57,9 +57,4 @@ export const cardInfo = [
     title: "Monitor Your Carbon Footprint",
     description: "Learn how to measure and reduce your carbon footprint for a more sustainable and energy-efficient lifestyle.",
   },
-];
-  `Relax and have us come do all the work. Schedule a pickup today and we'd be glad to head right up`,
-  ` Find a dropoff center around you and deliver your recyclable waste locally`,
-  `Earn KLIN points everytime you donate trash`,
-  `Get up to 100 KLIN points within 2 months and have your points converted to a cash or gift price, ready for redemption `,
 ]
