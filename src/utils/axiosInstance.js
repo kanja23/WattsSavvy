@@ -3,7 +3,7 @@ import axios from 'axios'
 let headers = {}
 
 const axiosInstance = axios.create({
-  baseURL: 'https://cleanhub-api.onrender.com/api/auth',
+  baseURL: 'https://wattssavvy-api.onrender.com/api/auth',
   // baseURL: 'http://localhost:8800/api/auth',
   headers,
 })
